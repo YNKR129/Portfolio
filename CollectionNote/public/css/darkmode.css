@@ -1,0 +1,245 @@
+/* ベーススタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* 背景をダークグレーに */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f4f4f9; /* テキストカラーをライトグレーに */
+}
+
+h1.site-title a {
+    color: #f4f4f9; /* タイトルリンクの色をライトに */
+}
+
+/* コンテナスタイル */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444; /* 背景色をやや明るめのダークグレーに */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* シャドウをライトに */
+}
+
+/* テーブルスタイル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f9; /* ヘッダー背景をライトグレーに */
+    color: #333; /* テキストをダークグレーに */
+}
+
+table td img {
+    max-width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+table td img:hover {
+    transform: scale(1.1); /* ホバー時に画像を1.1倍に拡大 */
+}
+
+/* ナビゲーションリンクスタイル */
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f4f4f9; /* ボタン背景をライトグレーに */
+    color: #333; /* テキストをダークに */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ccc; /* ホバー時にさらに明るいグレー */
+}
+
+/* メッセージ表示 */
+.message {
+    text-align: center;
+    color: #f4f4f9; /* メッセージのテキスト色をライトに */
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* フォームスタイル */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #555; /* 背景をダークグレーに */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #f4f4f9; /* ラベルをライトグレーに */
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #777; /* ボーダーをダークグレーに */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #444; /* 入力背景をダークに */
+    color: #f4f4f9; /* テキストをライトに */
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f4f4f9; /* ボタン背景をライトグレーに */
+    color: #333; /* テキストをダークグレーに */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ccc; /* ホバー時に明るめのグレー */
+}
+
+/* ヘッダースタイル */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f9; /* ヘッダーをライトグレーに */
+    padding: 10px 20px;
+    color: #333; /* テキストをダークに */
+}
+
+.site-title {
+    margin: 0;
+    color: black; /* タイトルテキストをライトグレーに */
+}
+
+.site-title a {
+    text-decoration: none;
+    color: black; /* リンクもライトグレーに */
+    font-size: 24px;
+}
+
+/* ログアウトボタン */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn {
+    padding: 8px 16px;
+    background-color: #666; /* ログアウトボタン背景をダークグレーに */
+    color: #f4f4f9; /* テキストをライトに */
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background-color: #888; /* ホバー時にライトグレー */
+}
+
+/* 汎用ボタンスタイル */
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f4f4f9; /* ボタン背景をライトグレーに */
+    color: #333; /* テキストをダークに */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 2px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #ccc; /* ホバー時に明るいグレー */
+}
+
+/* 削除ボタン */
+.delete-btn {
+    background-color: #d32f2f; /* 削除ボタンはダークレッド */
+}
+
+.delete-btn:hover {
+    background-color: #f44336; /* ホバー時は明るいレッド */
+}
+
+/* ダークモード時のテキストスタイル */
+.dark-mode {
+    color: #f4f4f9; /* ダークモード時のタイトルとリンクの色 */
+}
+/* トグルスイッチのスタイル */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}

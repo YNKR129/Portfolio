@@ -1,0 +1,232 @@
+/* ベーススタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* テーブルスタイル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #333; /* テーブルヘッダーの背景をダークグレーに */
+    color: white; /* ヘッダーのテキスト色を白に */
+}
+
+table td img {
+    max-width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+table td img:hover {
+    transform: scale(1.1); /* 画像ホバー時に1.1倍に拡大 */
+}
+
+/* ナビゲーションスタイル */
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #333; /* ボタンの背景をダークグレーに */
+    color: white; /* ボタンのテキスト色を白に */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #666; /* ホバー時にライトグレーに変更 */
+}
+
+/* メッセージスタイル */
+.message {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* フォームスタイル */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333; /* ボタンの背景をダークグレーに */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #666; /* ボタンホバー時にライトグレーに変更 */
+}
+
+/* ヘッダー */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* ヘッダーをダークグレーに */
+    padding: 10px 20px;
+}
+
+.site-title {
+    margin: 0;
+    color: white;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+/* ログアウトボタン */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn {
+    padding: 8px 16px;
+    background-color: #444; /* ログアウトボタンの背景をグレーに */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background-color: #666; /* ホバー時にライトグレーに変更 */
+}
+
+/* 汎用ボタンスタイル */
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333; /* ボタン背景色をダークグレーに */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 2px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #666; /* ボタンホバー時にライトグレーに変更 */
+}
+
+/* 削除ボタン */
+.delete-btn {
+    background-color: #f44336; /* 削除ボタンは赤色に */
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f; /* ホバー時にダークレッドに変更 */
+}
+/* トグルスイッチのスタイル */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
