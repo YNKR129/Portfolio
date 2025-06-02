@@ -63,7 +63,8 @@
 
 ### 2. MyNewsBoard: ニュースコメントWebアプリケーション
 
-![CollectionNoteのスクリーンショット](https://github.com/YNKR129/Portfolio/tree/main/images/MyNewsBoard/index.png)(https://github.com/YNKR129/Portfolio/tree/main/images/MyNewsBoard/show.png)
+![CollectionNoteのスクリーンショット⓵](https://github.com/YNKR129/Portfolio/tree/main/images/MyNewsBoard/index.png)
+![CollectionNoteのスクリーンショット⓶](https://github.com/YNKR129/Portfolio/tree/main/images/MyNewsBoard/show.png)
 
 -   **概要:** Laravel学習のために独学で作成したニュースコメントWebアプリケーションです。`https://jsonplaceholder.typicode.com/posts/`のAPIを利用してニュース一覧を表示し、ログイン・会員登録・ログアウトなどのユーザー認証機能と、ニュースに対するコメントのCRUD機能を実装しました。
 -   **使用技術:** PHP (Laravel), MySQL, 外部API (`jsonplaceholder.typicode.com`)
