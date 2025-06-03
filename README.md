@@ -17,7 +17,7 @@
 私が主に扱える技術スタックです。
 
 ### 主要言語
-`PHP`
+`PHP` `Java` `C` `Python`
 
 ### フレームワーク/ライブラリ
 `Laravel`
@@ -31,6 +31,9 @@
 ### 技術スタック
 <p>
   <img src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/>
   <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 </p>
