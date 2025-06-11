@@ -15,7 +15,7 @@ class ArticleController extends Controller
     public function index()
     {
         // 外部APIから記事データを取得
-        $response = Http::get('https://jsonplaceholder.typicode.com/posts');  // 実際のAPIエンドポイントに置き換えてください
+        $response = Http::get('https://jsonplaceholder.typicode.com/posts');
 
         // APIのレスポンスデータを配列に変換
         $articles = $response->json();
@@ -79,10 +79,6 @@ class ArticleController extends Controller
         ]);
     }
 
-
-
-
-
     /**
      * Show the form for editing the specified resource.
      */
@@ -117,13 +113,4 @@ class ArticleController extends Controller
         return redirect()->route('article.index')->with('success', '記事が削除されました');
     }
 
-    // コメントを取得するヘルパー関数
-    private function getComments($articleId)
-    {
-        // ここでは仮のデータを返す処理としておきます。実際のコメントは別のAPIかDBから取得。
-        return [
-            ['content' => 'Great article!', 'author' => 'User1'],
-            ['content' => 'Very informative!', 'author' => 'User2']
-        ];
-    }
 }
