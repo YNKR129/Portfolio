@@ -44,7 +44,7 @@
 
 ### 1. CollectionNote: グッズ管理Webアプリケーション
 
-![CollectionNoteのスクリーンショット](https://github.com/YNKR129/Portfolio/tree/main/images/CollectionNote/index.png)
+![CollectionNoteのスクリーンショット](https://raw.githubusercontent.com/YNKR129/Portfolio/main/images/CollectionNote/index.png)
 
 -   **概要:** 4週間のインターンでPHPを学び、その学習成果として作成したグッズ管理Webアプリケーションです。
     ログイン、会員登録、ログアウトといったユーザー認証機能を実装し、グッズの登録・閲覧・更新・削除（CRUD）が可能です。
@@ -66,8 +66,8 @@
 
 ### 2. MyNewsBoard: ニュースコメントWebアプリケーション
 
-![CollectionNoteのスクリーンショット⓵](https://github.com/YNKR129/Portfolio/tree/main/images/MyNewsBoard/index.png)
-![CollectionNoteのスクリーンショット⓶](https://github.com/YNKR129/Portfolio/tree/main/images/MyNewsBoard/show.png)
+![CollectionNoteのスクリーンショット⓵](https://raw.githubusercontent.com/YNKR129/Portfolio/main/images/MyNewsBoard/index.png)
+![CollectionNoteのスクリーンショット⓶](https://raw.githubusercontent.com/YNKR129/Portfolio/main/images/MyNewsBoard/show.png)
 
 -   **概要:** Laravel学習のために独学で作成したニュースコメントWebアプリケーションです。`https://jsonplaceholder.typicode.com/posts/`のAPIを利用してニュース一覧を表示し、ログイン・会員登録・ログアウトなどのユーザー認証機能と、ニュースに対するコメントのCRUD機能を実装しました。
 -   **使用技術:** PHP (Laravel), MySQL, 外部API (`jsonplaceholder.typicode.com`)
